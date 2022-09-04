@@ -1,9 +1,9 @@
 import React from "react";
 
 const Navbar = () => {
-    return <div className=" flex flex-col justify-between h-12">
+    return <div className=" flex flex-col justify-between">
 
-        <div className="flex w-full  justify-center items-center border-b h-12">
+        <div className="flex w-full  justify-center items-center border-b ">
             <div className="flex justify-center w-4/12 ">
                 <h1 className="flex justify-center hover:bg-sky-500 bg-white text-sky-400 hover:text-white border-none font-semibold rounded-3xl p-2 border-black border w-1/4">RealEstateApp</h1>
             </div>
@@ -21,7 +21,7 @@ const Navbar = () => {
                     Login
                 </div>
                 <div className=" hover:bg-sky-500 cursor-pointer hover:text-white px-5 py-2.5 rounded-full">
-                    Sign In
+                    SignIn
                 </div>
             </div>
             <div className="flex w-4/12 justify-center items-center">

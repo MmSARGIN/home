@@ -8,9 +8,9 @@ const Slider = () => {
 
 
     return (
-        <div className='w-full bg-blue-400 flex items-center justify-center'>
-            <div className=" w-full bg-blue-200">
-                <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
+        <div className='flex justify-center items-center w-full h-screen'>
+            <div className="absolute w-full bg-blue-200">
+                <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
                         <button
                             type="button"
@@ -34,22 +34,20 @@ const Slider = () => {
                         ></button>
                     </div>
                     <div className="carousel-inner relative w-full overflow-hidden">
-                        <div className="carousel-item h-screen active relative float-left w-full">
+                        <div className="carousel-item active  float-left w-full">
+
                             <img
                                 src="https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                className="block w-full"
+                                className="block w-full h-screen "
                                 alt="..."
                             />
-                            <div className="carousel-caption bg-sky-800 opacity-80 py-72 flex flex-col items-center absolute text-center">
-                                <div className=' mb-5 rounded-xl flex justify-center'>
-                                    <h5 className="text-5xl w-11/12 rounded-full  py-10">Enjoy the profiteble opportunities of RealEstateApp</h5>
-                                    {/* <p>Some representative placeholder content for the first slide.</p> */}
-                                </div>
-                                <div className='flex text-2xl w-2/4 justify-evenly'>
-                                    <button className='bg-sky-600 hover:bg-sky-400 px-10 py-4 rounded-full'>Get Started</button>
-                                    <button className='bg-sky-600 hover:bg-sky-400 px-10 py-4 rounded-full'>Sign In</button>
-                                </div>
+
+
+
+                            <div>
+
                             </div>
+
                         </div>
                         <div className="carousel-item h-screen relative float-left w-full">
                             <img
@@ -57,16 +55,7 @@ const Slider = () => {
                                 className="block w-full"
                                 alt="..."
                             />
-                            <div className="carousel-caption bg-sky-800 opacity-80 py-72 flex flex-col items-center absolute text-center">
-                                <div className=' mb-5 rounded-xl flex justify-center'>
-                                    <h5 className="text-5xl w-11/12 rounded-full  py-10">Enjoy the profiteble opportunities of RealEstateApp</h5>
-                                    {/* <p>Some representative placeholder content for the first slide.</p> */}
-                                </div>
-                                <div className='flex text-2xl w-2/4 justify-evenly'>
-                                    <button className='bg-sky-600 hover:bg-sky-400 px-10 py-4 rounded-full'>Get Started</button>
-                                    <button className='bg-sky-600 hover:bg-sky-400 px-10 py-4 rounded-full'>Sign In</button>
-                                </div>
-                            </div>
+
                         </div>
                         <div className="carousel-item h-screen relative float-left w-full">
                             <img
@@ -74,16 +63,7 @@ const Slider = () => {
                                 className="block w-full"
                                 alt="..."
                             />
-                            <div className="carousel-caption bg-sky-800 opacity-60 py-72 flex flex-col items-center absolute text-center">
-                                <div className=' mb-5 rounded-xl flex justify-center'>
-                                    <h5 className="text-5xl w-11/12 rounded-full  py-10">Enjoy the profiteble opportunities of RealEstateApp</h5>
-                                    {/* <p>Some representative placeholder content for the first slide.</p> */}
-                                </div>
-                                <div className='flex text-2xl w-2/4 justify-evenly'>
-                                    <button className='bg-sky-600 hover:bg-sky-400 px-10 py-4 rounded-full'>Get Started</button>
-                                    <button className='bg-sky-600 hover:bg-sky-400 px-10 py-4 rounded-full'>Sign In</button>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <button
@@ -107,7 +87,22 @@ const Slider = () => {
                 </div>
 
             </div>
+            <div className='absolute opacity-50 rounded-3xl bg-sky-600 h-5/6 w-8/12 z-0'>
 
+            </div>
+            <div className='flex flex-col justify-around items-center relative z-20 h-3/6 w-7/12'>
+                <div className='  flex justify-center items-center h-1/6'>
+                    <div className='flex justify-center items-center'>
+                        <h1 className='text-6xl text-white'>Enjoy the profitly opportunities of RealEstateApp</h1>
+                    </div>
+                </div>
+                <div className='text-white text-xl flex w-10/12 justify-evenly'>
+                    <button className='bg-sky-500 hover:bg-sky-400 p-3 w-2/12 rounded-full'>Get Started</button>
+                    <button className='bg-sky-500 hover:bg-sky-400 p-3 w-2/12 rounded-full'>Sign In</button>
+
+                </div>
+
+            </div>
 
         </div >
 
