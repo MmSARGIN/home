@@ -87,18 +87,18 @@ const Slider = () => {
                 </div>
 
             </div>
-            <div className='absolute opacity-50 rounded-3xl bg-sky-600 h-5/6 w-8/12 z-0'>
+            <div className='absolute opacity-40 rounded-md bg-teal-500 h-4/6 w-8/12 z-0'>
 
             </div>
-            <div className='flex flex-col justify-around items-center relative z-20 h-3/6 w-7/12'>
-                <div className='  flex justify-center items-center h-1/6'>
+            <div className='flex flex-col justify-around items-center relative z-20 h-3/6 w-8/12'>
+                <div className='  flex justify-center items-center ml-10 h-5/6 w-full'>
                     <div className='flex justify-center items-center'>
                         <h1 className='text-6xl text-white'>Enjoy the profitly opportunities of RealEstateApp</h1>
                     </div>
                 </div>
                 <div className='text-white text-xl flex w-10/12 justify-evenly'>
-                    <button className='bg-sky-500 hover:bg-sky-400 p-3 w-2/12 rounded-full'>Get Started</button>
-                    <button className='bg-sky-500 hover:bg-sky-400 p-3 w-2/12 rounded-full'>Sign In</button>
+                    <button className='bg-white text-teal-600 hover:bg-sky-100 p-2 w-3/12 rounded-full'>Get Started</button>
+                    <button className='bg-white text-teal-600 hover:bg-sky-100 p-2 w-3/12 rounded-full'>Sign In</button>
 
                 </div>
 
